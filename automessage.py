@@ -126,7 +126,7 @@ for i, inquiry in enumerate(inquiries[:num_inquiries], start=1):
     message = inquiry
     pyautogui.typewrite(message)
     pyautogui.press('enter')
-    print(f"✅ Sent: {message}")
+    print(f"Sent: {message}")
     time.sleep(interval)
 
 print("🎉 All 100 unique department store inquiries have been sent successfully.")
